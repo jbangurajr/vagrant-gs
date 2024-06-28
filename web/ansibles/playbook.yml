@@ -1,7 +1,7 @@
 - hosts: all
   tasks:
     - ansible.builtin.debug:
-        msg: "testing 1 2 3!!!"
+        msg: "Installing the most package for manual pager and setting it as default PAGER"
     - name: "use most as default PAGER"
       ansible.builtin.lineinfile:
         path: "/home/vagrant/.bashrc"

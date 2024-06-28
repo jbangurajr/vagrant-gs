@@ -64,3 +64,13 @@ Get-PSReadLineKeyHandler -Bound -UnBound | where -Property Group -EQ Prediction
 Set-PSReadLineKeyHandler -Key "Shift+RightArrow" -Function AcceptNextSuggestionWord # InlineView only
 
 ```
+
+# Other Commands
+
+vagrant snapshot name
+vagrant restore snapshot name
+
+vagrant provsion-with one,or-multiple,provisioners
+
+run:once, always, never
+
