@@ -55,7 +55,7 @@ Course page: https://www.pluralsight.com/courses/vagrant-getting-started
 
 # change options
 Get-PSReadLineOption | select PredictionSource, PredictionViewStyle
-Set-PSReadLineOption -PredictionSource History -PredictionViewStyle InlineView
+Set-PSReadLineOption -PredictionSource History -PredictionViewStyle ListView
 # PredictionViewStyle: ListView or InlineView
 # PredictionSource: History, Plugin, HistoryAndPlugin, None
 
