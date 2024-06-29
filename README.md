@@ -74,3 +74,10 @@ vagrant provsion-with one,or-multiple,provisioners
 
 run:once, always, never
 
+ssh web,db,cache #can only ssh to one at a time
+
+vagrant reload web db cache #space seperated for multiple
+
+vagrant status web db cache #space seperated for multiple
+
+vagrant status /xxx/ # filter 
