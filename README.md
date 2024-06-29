@@ -81,3 +81,5 @@ vagrant reload web db cache #space seperated for multiple
 vagrant status web db cache #space seperated for multiple
 
 vagrant status /xxx/ # filter 
+
+vagrant global-status --prune #destroy with id when not in directory 
