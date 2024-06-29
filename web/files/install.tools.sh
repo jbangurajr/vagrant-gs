@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt-get install -y bat
+sudo apt install -y bat

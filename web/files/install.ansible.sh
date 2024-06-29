@@ -1,8 +1,11 @@
 #!/bin/bash -x
 
-sudo apt update
+sudo apt-get update
+pip install --break-system-packages --user ansible
+sudo apt install pipx -y
+sudo apt-get install -y python3-pip
+sudo apt upgrade -y
 sudo apt install software-properties-common
-sudo add-apt-repository --yes --update ppa:ansible/ansible
-sudo apt install -y ansible 
+sudo apt install ansible-core -y
 
 # Only LTS releases install ansible automaitcally. For other releases, you need to install ansible manually.
